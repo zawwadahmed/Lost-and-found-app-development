@@ -1,0 +1,24 @@
+step 1: first install git
+
+Step 2: git configaration
+
+code: git config --global user.name [your github username]
+code: git config --global user.email [Your github mail]
+
+to check if the username and email is added or not
+
+code: git config list
+
+
+Step 3:  Clone the git repositry that you have created, put all the project files in the clone folder. open the folder in vs code and open terminal from vs code
+
+(create new branch)
+code: git checkout -b [new-branch-name]  
+(check the  branchs)
+code: git branch
+(to track all the files)
+code: git add .
+(to commite a message)
+code: git commit -m "[Your message]"
+(push the code in your branch)
+code: git push origin [your branch name]
